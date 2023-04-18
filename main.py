@@ -1,11 +1,12 @@
 from Document import Document
+from DateTime import DateTime
 from Phone import Phone
 import re
 
 # DOCUMENT
 ###########################################
 ### CPF - DOCUMENT FOR PERSON
-input = 33277848094
+# input = 33277848094
 
 ### CNPJ - DOCUMENT FOR COMPANY
 input = 76713750000172
@@ -22,6 +23,14 @@ phone = "552126481234"
 output = Phone(phone)
 print(output)
 #########################
+
+
+# DATE - TIME
+#####################
+
+output = DateTime()
+print(output)
+#####################
 
 
 # REGULAR EXPRESSIONS
