@@ -1,5 +1,6 @@
 from Document import Document
 from DateTime import DateTime
+from Address import Address
 from Phone import Phone
 import re
 
@@ -27,9 +28,17 @@ print(output)
 
 # DATE - TIME
 #####################
-
 output = DateTime()
 print(output)
+#####################
+
+
+# CEP - DOCUMENT FOR ADDRESS
+#####################
+cep = 93030060
+
+output = Address(cep)
+print(output.get_address())
 #####################
 
 
